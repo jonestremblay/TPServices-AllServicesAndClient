@@ -13,7 +13,7 @@ namespace BirthEntryServiceDAO_WCF.Connections
     class Database
     {
         private static MySqlConnection cnx = null;
-        private static String connectionString = "Server=192.168.2.29;Uid=profbdeb;PWd=bdeb;Database=TPA15";
+        private static String connectionString = "Server=sql5.freemysqlhosting.net;Uid=sql5440579;PWd=6Ps5JxudLG;Database=sql5440579";
         public static MySqlConnection GetConnection()
         {
             if (cnx == null)
